@@ -1,0 +1,84 @@
+body
+{
+    background: url('back.png');
+    background-size:cover;
+    background-position: top;
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+.first-page{
+    width: 95vw;
+    height: 95vh;
+}
+.main-container{
+    margin: 30px 20px;
+    background: rgb(0, 0, 0, 0.8);
+    color: aliceblue;
+}
+
+.recipe_details, .ingredients_list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+img{
+    height: auto;
+    width: 500px;
+}
+
+h1{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+}
+
+#meal-access{
+    height: 40px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 25px;
+    background-color: rgb(4, 175, 4);
+    border: none;
+    border-radius: 20px ;
+}
+#meal-access:hover{
+    cursor: pointer;
+    background-color: rgb(187, 8, 8);
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.flex{
+    display: flex;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.flex-center{
+    justify-content: center;
+    align-content: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
